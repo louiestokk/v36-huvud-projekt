@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://kit.fontawesome.com/8c7aa3b838.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="V36 huvudprojekt dar vi skall bygga en hel webbsida.">   
+    <title>V 36 Huvudprojekt - Louie</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">V.36</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Om Projektet</a></li>
+                    <li><a href="#tasks">Uppgifter</a></li>
+                    <li><a href="#more">Fler uppgifter</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="hero">
+            <h1>V 36 Huvudprojekt</h1>
+            <p>Jag skall bygga  <strong>Hero</strong> med CSS-ärv, jobbar med Flexbox och CSS Grid, lägger till navigation och footer, och gör sidan mer responsiv med <strong>media queries</strong>.</p>
+            <div class="hero-images">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX_bBgZPOwHsTn0pkY_Qfnzk8_jdFOIWmI272BEmdMPBWi01YWpR7tXO21&s=10" alt="CSS"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBClK3MWVNS3HakyXYORLUrvbOKuj-doMHodaLBMdCa_3R26E617LwCgJW&s=10" alt="CSS Flexbox"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7G8DKza90g7XqIMk-XTiEsJqUldtvCrmBOY1jEvchUoZE-D4NWZrXUyI&s=10" alt="Responsive Design"/>
+            </div>   
+        </section>
+    </header>
+
+    <main class="content">
+        <section class="about" id="about">
+            <h2>Om detta projekt</h2>
+            <p>Detta är huvudprojektet för vecka 36 där vi skall bygga en komplett webbsida.</p>
+            <ul>
+                <li> <i class="fa-solid fa-check icon-green"></i> <p>Flexbox</p></li>
+                <li><i class="fa-solid fa-check icon-green"></i> <p>CSS Grid</p></li>
+                <li><i class="fa-solid fa-check icon-green"></i> <p>Responsive Design</p></li>
+            </ul>
+        </section>
+        <section id="tasks" class="grid-container">
+            <h2>Vad vi skall göra i detta projekt</h2>
+            <article>
+                <h3>Hero</h3>
+                <p>Bygga och styla en Hero-sektion.</p>
+            </article>
+            <article>
+                <h3>CSS-ärv</h3>
+                <p>Ge ett exempel på CSS-ärv i egen kod.</p>
+            </article>
+            <article>
+                <h3>schema/rutnät</h3>
+                <p>Bygga ett schema/rutnät med CSS Grid.</p>
+            </article>
+        </section>
+
+        <section id="more" class="grid-section">
+            <h2>Aven detta skall vi gora</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Motivera</h3>
+                    <p>Motivera kort när Flexbox respektive Grid passar..</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Nav/Footer</h3>
+                    <p>Lägga till nav, footer och grundläggande responsivitet.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Feedback</h3>
+                    <p>Ge enkel, konkret feedback på annans HTML/CSS..</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Examination</h3>
+                    <p>Känna till Examination 1-kraven och starta gruppens eventsida i repo.</p>
+                </div>
+            </div>
+        </section>
+        <section class="highlights">
+  <h2>Höjdpunkter</h2>
+  <div class="kort-rad">
+    <article class="kort">
+        <h3>Javascript</h3>
+        <p>Fördjupa mig och utvecklas mer i Javascript.</p>
+        <img src="data:image/png;base64,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" alt="Javascript">
+    </article>
+    <article class="kort">
+        <h3>CSS</h3>
+        <p>Förbättra mina CSS-färdigheter.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ikO3pUhUmpZ9roI0ERZPii07B8QP3tgG38JtLshG5w&s=10" alt="CSS">
+    </article>
+    <article class="kort">
+        <h3>HTML</h3>
+        <p>Fördjupa dig i HTML-struktur och semantik.</p>
+        <img src="https://miro.medium.com/1*6ujFyhOz4kx578TJ8XLUZA.png" alt="HTML">
+    </article>
+    <article class="kort">
+        <h3>Reactjs</h3>
+        <p>Fördjupa mig i Reactjs.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNlDbFZvlAJGXlH1uhWPl5rYyq9s90wv4pv0eMhNsKSg&s=10" alt="Reactjs">
+    </article>
+     <article class="kort">
+        <h3>Nextjs</h3>
+        <p>Fördjupa mig i Nextjs.</p>
+        <img src="https://images.ctfassets.net/23aumh6u8s0i/6pjUKboBuFLvCKkE3esaFA/5f2101d6d2add5c615db5e98a553fc44/nextjs.jpeg" alt="Nextjs">
+    </article>
+  </div>        
+</section>
+    </main> 
+    
+    <footer>
+        <p>&copy; 2024 Louie. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
