@@ -9,7 +9,7 @@
 8. Känna till Examination 1-kraven och starta gruppens eventsida i repo.
 
 # Css arv & hero section code camp 
-Klart och ligger i min skol folder
+Klart och ligger i min skol folder med repo i github
 
 # Flexbox code camp ( onsdag 3 sep)  
 Gjorde tillsammans med Ali och Osama , Ali har lagt till en commit om detta. 
