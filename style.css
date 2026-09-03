@@ -13,7 +13,7 @@ h1,h2,h3{
     justify-content: space-between; 
     align-items: center;
     height: 100px;
-    width: 100%;
+    width: 94%;
     padding: 1.2rem;
     background-color: rgba(7, 7, 7, 0.881);
     border-radius: 8px;
@@ -61,7 +61,7 @@ background-size: cover;
 padding: 2rem;
 text-align: center;
 letter-spacing: 0.5px;
-height: 400px;
+height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -72,6 +72,42 @@ max-width: 94%;
 margin: 0 auto;
 border: 1px solid rgba(255, 255, 255, 0.3);
 border-radius: 8px;
+}
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    margin: 0.5rem;
+    background-color: rgba(7, 7, 7, 0.881);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.hero-button-secondary {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    margin: 0.5rem;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button-secondary:hover {
+    background-color: rgb(245, 151, 151);
+}
+
+.hero-button:hover {
+    background-color: rgb(245, 151, 151);
 }
 
  p {
@@ -84,7 +120,6 @@ border-radius: 8px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    background-color: lightblue !important;
 }
 
 .grid-container > h2 {
@@ -92,16 +127,17 @@ border-radius: 8px;
 }
 
 .grid-container article{
-    background-color: white;
+    color: white;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: black;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    max-width: 900px;
+    max-width: 94%;
     margin: 1rem auto;
 }
 
@@ -139,7 +175,8 @@ ul{
 }
 
 .about-container {
-    width: 100%;
+    margin: 0 auto;
+    width: 94%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,6 +213,7 @@ ul{
     background-color: transparent !important;
     border: 1px solid rgba(0, 0, 0, 0.498);
     padding: 2rem;
+    border-radius: 8px;
 }
 
 .kort-rad{
@@ -192,6 +230,7 @@ ul{
    justify-content: center;
    border: 1px solid #ccc;
    padding: 1rem;
+   border-radius: 8px;
 }
 
 .kort p{ 
